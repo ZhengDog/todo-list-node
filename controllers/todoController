@@ -1,6 +1,6 @@
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var mangourl = require('../ignore');
+var mangourl = require('../ignoreM/ignore');
 
 //connect to database
 mongoose.connect(mangourl);
